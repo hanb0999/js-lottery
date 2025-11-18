@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#buy-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#buy-button:hover {
+  background-color: #45a049;
+}
+
+#buy-button:active {
+  transform: scale(0.96);
+  box-shadow: 0 0 10px gold;
+}
+
+div {
+  margin-top: 30px;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+span:first-child {
+  font-weight: bold;
+  color: #222;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s ease;
+}
